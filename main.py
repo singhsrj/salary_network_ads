@@ -66,5 +66,7 @@ prediction = classifier.predict(input_df)
 
 # Show the predicted class and the prediction probability
 st.subheader('Prediction')
-if(prediction==1) st.write("Yes")
-else st.write("NO")
+if(prediction==1) :
+    st.write("Yes")
+else:
+    st.write("NO")
